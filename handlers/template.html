@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lab 0</title>
+    <script>
+        function updateChart() {
+            var selectedChart = document.getElementById("chartSelect").value;
+            window.location.href = "/?line=" + selectedChart;
+        }
+    </script>
+</head>
+<body>
+    <form>
+        <select id="chartSelect" onchange="updateChart()">
+            <option value="red" {{if eq .Chart "red"}}selected{{end}}>Red line</option>
+            <option value="green" {{if eq .Chart "green"}}selected{{end}}>Green line</option>
+            <option value="blue" {{if eq .Chart "blue"}}selected{{end}}>Blue line</option>
+            <option value="orange" {{if eq .Chart "orange"}}selected{{end}}>Orange line</option>
+        </select>
+    </form>
+    <img src="data:image/png;base64,{{.Image}}" alt="Bar Chart">
+
+</body>
+</html>
