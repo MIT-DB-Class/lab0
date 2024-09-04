@@ -147,6 +147,6 @@ To submit your code, please do the following:
 
 1. In the `lab0` directory, run `zip -r submission.zip handlers utils ridership_db main.go`.
 
-2. Submit the generated zip to [the autograder](https://www.gradescope.com/courses/583077/assignments/3263816/).
+2. Submit the generated zip to [the autograder](https://www.gradescope.com/courses/846234/assignments/4880292).
 
 3. The autograder should give you a score, based on whether your code passes the test cases. We will release the remaining 50% of the grade later.
