@@ -4,6 +4,11 @@ In this tutorial, we will briefly go over the most important concepts of the Go 
 
 ## Installation
 
+> [!NOTE]  
+> If you are using Windows to work on this lab, you may encounter this error:
+> `Binary was compiled with 'CGO_ENABLED=0', go-sqlite3 requires cgo to work. This is a stub.`
+> While there are several ways to fix this issue, we recommend you to use [Windows Subsystem for Linux (WSL)](https://learn.microsoft.com/en-us/windows/wsl/install). If you have problems resolving the error, please post on Piazza or come to TA office hours.
+
 1. Follow [these instructions](https://go.dev/doc/install) to install Go.
 
  2. We recommend using VisualStudio Code to work on the labs. VisualStudio Code can be downloaded [from here](https://code.visualstudio.com/download). After installation, make sure to add Go extensions and tools: Open VS Code, open the extension manager by pressing `Ctrl + Shift + x`, type "go" into the search bar and hit enter, find the Go extension by the GO team at Google and install it, open the command palette by pressing `Ctrl + Shift + p`, run `Go: Install/Update Tools`, select all tools and click ok.
