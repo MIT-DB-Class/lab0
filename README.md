@@ -145,7 +145,7 @@ ok      main/ridership_db       0.226s
 
 To submit your code, please do the following:
 
-1. In the `lab0` directory, run `zip -r submission.zip handlers utils ridership_db main.go`.
+1. In the `lab0` directory, run `zip -r submission.zip handlers utils ridership_db main.go`. Please make sure that your `mbta.sqlite` file is not inculded in the zip.
 
 2. Submit the generated zip to [the autograder](https://www.gradescope.com/courses/846234/assignments/4880292).
 
